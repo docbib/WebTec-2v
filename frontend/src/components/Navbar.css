@@ -1,0 +1,41 @@
+.container_A {
+  display: flex;
+  background-color: #a0bdbf;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_A a {
+  text-decoration: none;
+  color: black;
+}
+
+.marke {
+  font-size: 24px;
+  font-weight: 400;
+  align-self: flex-end;
+}
+
+.login {
+  margin-left: 50px;
+}
+
+.korb {
+  margin-right: 50px;
+}
+
+.container_B {
+  display: flex;
+  background-color: #148a8a;
+  height: 46px;
+  align-items: center;
+}
+
+.container_B a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}

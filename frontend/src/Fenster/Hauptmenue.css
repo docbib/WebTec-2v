@@ -1,0 +1,120 @@
+.hauptmenue {
+  margin: 2rem;
+}
+
+.container_hm_h {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container_nt_hemd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nt_hemd {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.container_button_jetzt_a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  height: 73px;
+}
+
+.j_a {
+  text-decoration: none;
+  color: black;
+  background-color: #a0bdbf;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.container_hm_p {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container_nt_polos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nt_polos {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.container_button_jetzt_a_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  height: 73px;
+}
+
+.j_a_p {
+  text-decoration: none;
+  color: black;
+  background-color: #a0bdbf;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.container_hm_s {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.container_nt_strick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nt_strick {
+  font-size: 24px;
+  font-weight: 800;
+}
+.container_button_jetzt_a_s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  height: 73px;
+}
+
+.j_a_s {
+  text-decoration: none;
+  color: black;
+  background-color: #a0bdbf;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.container_C {
+  display: flex;
+  background-color: #a0bdbf;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  font-size: 16px;
+  font-weight: 700;
+  bottom: 0px;
+  width: 100%;
+}
+
+.c_items {
+  flex-direction: column;
+}
