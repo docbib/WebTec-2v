@@ -1,4 +1,4 @@
-import './HemdenFenster.css';
+import './StrickFenster.css';
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import React from 'react';
@@ -7,7 +7,7 @@ import Product from '../components/Product';
 // Actions
 import { getProducts as listProducts } from '../redux/actions/productActions';
 
-const HemdenFenster = () => {
+const StrickFenster = () => {
   const dispatch = useDispatch();
 
   const getProducts = useSelector((state) => state.getProducts);
@@ -18,10 +18,10 @@ const HemdenFenster = () => {
   }, [dispatch]);
 
   return (
-    <div className="hemdenfenster">
-      <div className="hemden_title">Hemden</div>
+    <div className="strickfenster">
+      <div className="strick_title">Strick & Sweat</div>
 
-      <div className="hemden_products">
+      <div className="strick_products">
         {loading ? (
           <h2>loading...</h2>
         ) : error ? (
@@ -43,4 +43,4 @@ const HemdenFenster = () => {
   );
 };
 
-export default HemdenFenster;
+export default StrickFenster;
